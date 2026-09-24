@@ -260,12 +260,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8475158208351217369}
-  - {fileID: 2039012810}
-  - {fileID: 1479401663}
-  - {fileID: 1803588181}
-  - {fileID: 1171797124}
-  - {fileID: 2048393374}
+  - {fileID: 426198212}
+  - {fileID: 1735174169}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &32489650
@@ -581,10 +577,10 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.71378475, w: 0.7003652}
   m_LocalPosition: {x: 2.0286865, y: -0.40839994, z: -1.6602783}
-  m_LocalScale: {x: 1, y: 0.17302999, z: 1}
+  m_LocalScale: {x: 1, y: 0.17302997, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 267782089}
+  m_Father: {fileID: 828004263}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 91.087}
 --- !u!136 &162199816
 CapsuleCollider:
@@ -672,11 +668,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1644898293}
+    m_TransformParent: {fileID: 600754212}
     m_Modifications:
     - target: {fileID: 127475359915499250, guid: ea9191d47c80ef148919554806c22b07, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.7638931
+      value: 0.76389325
       objectReference: {fileID: 0}
     - target: {fileID: 127475359915499250, guid: ea9191d47c80ef148919554806c22b07, type: 3}
       propertyPath: m_LocalPosition.x
@@ -762,10 +758,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1161916908}
-  - {fileID: 904200057}
-  - {fileID: 912095165}
-  - {fileID: 162199815}
-  - {fileID: 1193940514}
+  - {fileID: 828004263}
   - {fileID: 2019519676}
   - {fileID: 1997487056}
   m_Father: {fileID: 0}
@@ -780,7 +773,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 148714, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_Name
-      value: Fence Type6 Small (13)
+      value: FenceHouse_8
       objectReference: {fileID: 0}
     - target: {fileID: 454212, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_LocalScale.x
@@ -1240,6 +1233,39 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!1 &426198211
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 426198212}
+  m_Layer: 0
+  m_Name: StairsSuport
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &426198212
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426198211}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8475158208351217369}
+  - {fileID: 2039012810}
+  m_Father: {fileID: 16905814}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &434972802
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1320,7 +1346,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 148714, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_Name
-      value: Fence Type6 Small (1)
+      value: Fence_1
       objectReference: {fileID: 0}
     - target: {fileID: 454212, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_LocalScale.x
@@ -1394,7 +1420,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 148714, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_Name
-      value: Fence Type6 Small (4)
+      value: FenceHouse_9
       objectReference: {fileID: 0}
     - target: {fileID: 454212, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_LocalScale.x
@@ -1530,7 +1556,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 148714, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_Name
-      value: Fence Type6 Small (9)
+      value: FenceHouse_1
       objectReference: {fileID: 0}
     - target: {fileID: 454212, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_LocalScale.x
@@ -1635,7 +1661,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 148714, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_Name
-      value: Fence Type6 Small (12)
+      value: FenceHouse_4
       objectReference: {fileID: 0}
     - target: {fileID: 454212, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_LocalScale.x
@@ -1744,7 +1770,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 148714, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_Name
-      value: Fence Type6 Small (5)
+      value: FenceHouse_10
       objectReference: {fileID: 0}
     - target: {fileID: 454212, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_LocalScale.x
@@ -1818,7 +1844,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 148714, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_Name
-      value: Fence Type6 Small (6)
+      value: FenceHouse_11
       objectReference: {fileID: 0}
     - target: {fileID: 454212, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_LocalScale.x
@@ -1882,6 +1908,39 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 454212, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
   m_PrefabInstance: {fileID: 599591332}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &600754211
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 600754212}
+  m_Layer: 0
+  m_Name: WaterMelons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &600754212
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600754211}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2582185776036679921}
+  - {fileID: 257823503}
+  m_Father: {fileID: 1644898293}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &697430073
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1954,7 +2013,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 148714, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_Name
-      value: Fence Type6 Small (7)
+      value: FenceHouse_5
       objectReference: {fileID: 0}
     - target: {fileID: 454212, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_LocalScale.x
@@ -2028,7 +2087,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 148714, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_Name
-      value: Fence Type6 Small
+      value: Fence_2
       objectReference: {fileID: 0}
     - target: {fileID: 454212, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_LocalScale.x
@@ -2162,6 +2221,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: b08ef7d6178f62742af62250667c0dff, type: 3}
   m_PrefabInstance: {fileID: 826248839}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &828004262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 828004263}
+  m_Layer: 0
+  m_Name: Wheels
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &828004263
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828004262}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 904200057}
+  - {fileID: 912095165}
+  - {fileID: 162199815}
+  - {fileID: 1193940514}
+  m_Father: {fileID: 267782089}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -2210,6 +2304,39 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &863241656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 863241657}
+  m_Layer: 0
+  m_Name: WaterCrates
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &863241657
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863241656}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1202550020}
+  - {fileID: 1544045879}
+  m_Father: {fileID: 1644898293}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &870621106
 GameObject:
@@ -2271,10 +2398,10 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.71378475, w: 0.7003652}
   m_LocalPosition: {x: -0.041290283, y: -0.44839996, z: -0.21734619}
-  m_LocalScale: {x: 1, y: 0.17302999, z: 1}
+  m_LocalScale: {x: 1, y: 0.17302997, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 267782089}
+  m_Father: {fileID: 828004263}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 91.087}
 --- !u!136 &904200058
 CapsuleCollider:
@@ -2385,10 +2512,10 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.71378475, w: 0.7003652}
   m_LocalPosition: {x: -0.041290283, y: -0.44839996, z: -1.6602783}
-  m_LocalScale: {x: 1, y: 0.17302999, z: 1}
+  m_LocalScale: {x: 1, y: 0.17302997, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 267782089}
+  m_Father: {fileID: 828004263}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 91.087}
 --- !u!136 &912095166
 CapsuleCollider:
@@ -2480,7 +2607,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 148714, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_Name
-      value: Fence Type6 Small (3)
+      value: FenceHouse
       objectReference: {fileID: 0}
     - target: {fileID: 454212, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_LocalScale.x
@@ -2554,7 +2681,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 148714, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_Name
-      value: Fence Type6 Small (11)
+      value: FenceHouse_3
       objectReference: {fileID: 0}
     - target: {fileID: 454212, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_LocalScale.x
@@ -2845,7 +2972,7 @@ GameObject:
   - component: {fileID: 1171797122}
   - component: {fileID: 1171797121}
   m_Layer: 0
-  m_Name: Step_1 (2)
+  m_Name: Step_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2939,10 +3066,10 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.25370994, z: -0, w: 0.9672804}
   m_LocalPosition: {x: -0.0184021, y: -0.12334001, z: -1.0513916}
-  m_LocalScale: {x: 1, y: 0.5156124, z: 3.3520002}
+  m_LocalScale: {x: 1, y: 0.5156124, z: 3.3520005}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 16905814}
+  m_Father: {fileID: 1735174169}
   m_LocalEulerAnglesHint: {x: 0, y: 29.394, z: 0}
 --- !u!1 &1193940513
 GameObject:
@@ -2973,10 +3100,10 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.71378475, w: 0.7003652}
   m_LocalPosition: {x: 2.0286865, y: -0.40839994, z: -0.2702942}
-  m_LocalScale: {x: 1, y: 0.17302999, z: 1}
+  m_LocalScale: {x: 1, y: 0.17302997, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 267782089}
+  m_Father: {fileID: 828004263}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 91.087}
 --- !u!136 &1193940515
 CapsuleCollider:
@@ -3064,7 +3191,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1644898293}
+    m_TransformParent: {fileID: 863241657}
     m_Modifications:
     - target: {fileID: 100000, guid: 428ff4211032ac247ada0b3350894e11, type: 3}
       propertyPath: m_Name
@@ -3192,7 +3319,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 148714, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_Name
-      value: Fence Type6 Small (10)
+      value: FenceHouse_2
       objectReference: {fileID: 0}
     - target: {fileID: 454212, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_LocalScale.x
@@ -3266,7 +3393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1232282313}
   m_Layer: 0
-  m_Name: Fence
+  m_Name: FenceGarden
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3300,7 +3427,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 148714, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_Name
-      value: Fence Type6 Small (14)
+      value: FenceHouse_6
       objectReference: {fileID: 0}
     - target: {fileID: 454212, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_LocalScale.x
@@ -3646,10 +3773,10 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.25370994, z: -0, w: 0.9672804}
   m_LocalPosition: {x: -0.92840576, y: -1.06912, z: -0.54141235}
-  m_LocalScale: {x: 1, y: 0.5156124, z: 3.3520002}
+  m_LocalScale: {x: 1, y: 0.5156124, z: 3.3520005}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 16905814}
+  m_Father: {fileID: 1735174169}
   m_LocalEulerAnglesHint: {x: 0, y: 29.394, z: 0}
 --- !u!1001 &1497949487
 PrefabInstance:
@@ -3661,7 +3788,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 148714, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_Name
-      value: Fence Type6 Small (8)
+      value: FenceHouse_7
       objectReference: {fileID: 0}
     - target: {fileID: 454212, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_LocalScale.x
@@ -3731,7 +3858,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1644898293}
+    m_TransformParent: {fileID: 863241657}
     m_Modifications:
     - target: {fileID: 100000, guid: 5c99934c3c02ecd4590f102e26e68f17, type: 3}
       propertyPath: m_Name
@@ -3992,10 +4119,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1202550020}
-  - {fileID: 1544045879}
-  - {fileID: 2582185776036679921}
-  - {fileID: 257823503}
+  - {fileID: 863241657}
+  - {fileID: 600754212}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1718838017
@@ -4032,6 +4157,41 @@ Transform:
   - {fileID: 1091825164}
   - {fileID: 1885936543}
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1735174168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1735174169}
+  m_Layer: 0
+  m_Name: StairsSteps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1735174169
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735174168}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1479401663}
+  - {fileID: 1803588181}
+  - {fileID: 1171797124}
+  - {fileID: 2048393374}
+  m_Father: {fileID: 16905814}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1748496856
 GameObject:
@@ -4081,7 +4241,7 @@ GameObject:
   - component: {fileID: 1803588179}
   - component: {fileID: 1803588178}
   m_Layer: 0
-  m_Name: Step_1 (1)
+  m_Name: Step_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4175,10 +4335,10 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.25370994, z: -0, w: 0.9672804}
   m_LocalPosition: {x: -0.4984131, y: -0.57779, z: -0.7814026}
-  m_LocalScale: {x: 1, y: 0.5156124, z: 3.3520002}
+  m_LocalScale: {x: 1, y: 0.5156124, z: 3.3520005}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 16905814}
+  m_Father: {fileID: 1735174169}
   m_LocalEulerAnglesHint: {x: 0, y: 29.394, z: 0}
 --- !u!1 &1813426021
 GameObject:
@@ -4431,7 +4591,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 148714, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_Name
-      value: Fence Type6 Small (2)
+      value: Fence_3
       objectReference: {fileID: 0}
     - target: {fileID: 454212, guid: 2d525f55a99e5bd4e98aec363e675a60, type: 3}
       propertyPath: m_LocalScale.x
@@ -4956,7 +5116,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 16905814}
+    m_TransformParent: {fileID: 426198212}
     m_Modifications:
     - target: {fileID: 3744750621893415448, guid: 73baed1fe10306245897f2248647108c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5025,7 +5185,7 @@ GameObject:
   - component: {fileID: 2048393372}
   - component: {fileID: 2048393371}
   m_Layer: 0
-  m_Name: Step_1 (3)
+  m_Name: Step_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5119,10 +5279,10 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.25370994, z: -0, w: 0.9672804}
   m_LocalPosition: {x: 0.47158813, y: 0.38025987, z: -1.3313904}
-  m_LocalScale: {x: 1, y: 0.5156124, z: 3.3520002}
+  m_LocalScale: {x: 1, y: 0.5156124, z: 3.3520005}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 16905814}
+  m_Father: {fileID: 1735174169}
   m_LocalEulerAnglesHint: {x: 0, y: 29.394, z: 0}
 --- !u!1001 &2059685252
 PrefabInstance:
@@ -5292,7 +5452,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1644898293}
+    m_TransformParent: {fileID: 600754212}
     m_Modifications:
     - target: {fileID: 127475359915499250, guid: ea9191d47c80ef148919554806c22b07, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5354,7 +5514,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 16905814}
+    m_TransformParent: {fileID: 426198212}
     m_Modifications:
     - target: {fileID: 3744750621893415448, guid: 73baed1fe10306245897f2248647108c, type: 3}
       propertyPath: m_LocalPosition.x
